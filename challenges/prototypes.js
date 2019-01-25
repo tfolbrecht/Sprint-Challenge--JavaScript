@@ -6,17 +6,17 @@
   Create a constructor function named CuboidMaker that accepts properties for length, width, and height
 */
 
-function cuboidMaker(cubeObj) {
-  this.length = cubeObj.length;
-  this.width = cubeObj.width;
-  this.height = cubeObj.height;
-  this.volume = function() { 
-    return ( this.length * this.width * this.height );
-  };
-  this.surfaceArea = function() {
-    return ( 2 * (this.length * this.width + this.length * this.height + this.width * this.height));
-  };
-}
+// function cuboidMaker(cubeObj) {
+//   this.length = cubeObj.length;
+//   this.width = cubeObj.width;
+//   this.height = cubeObj.height;
+//   this.volume = function() { 
+//     return ( this.length * this.width * this.height );
+//   };
+//   this.surfaceArea = function() {
+//     return ( 2 * (this.length * this.width + this.length * this.height + this.width * this.height));
+//   };
+// }
 
 
 /* == Step 2: Volume Method ==
@@ -44,15 +44,15 @@ function cuboidMaker(cubeObj) {
   Add properties and values of length: 4, width: 5, and height: 5 to cuboid.   
 */
 
-const cuboid = new cuboidMaker({
-  length: 4, 
-  width: 5, 
-  height: 5,
-});
+// const cuboid = new cuboidMaker({
+//   length: 4, 
+//   width: 5, 
+//   height: 5,
+// });
 
 // Test your volume and surfaceArea methods by uncommenting the logs below:
-console.log(cuboid.volume()); // 100 
-console.log(cuboid.surfaceArea()); // 130
+// console.log(cuboid.volume()); // 100 
+// console.log(cuboid.surfaceArea()); // 130
 
 //not sure what's causing undefined after each method call
 // I was console logging, not returning! 
