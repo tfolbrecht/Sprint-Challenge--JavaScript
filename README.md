@@ -29,14 +29,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+* ???
 
 2. What is the difference between a function and a method?
+* Methods are called by Objects, functions are ...
 
 3. What is closure?
+* Scope
 
 4. Describe the four rules of the 'this' keyword.
+* 1. In the global scope, this. selects the window object (window if web browser)
+* 2. Implicit -When an object is called by a proceeding dot
+* 3. New - New refers to the created constructor object instance created and returned by the constructor function `const a new someFunc('Newobj');`
+* 4. Explicit - using .call, .apply methods .call  for argument list .apply for single array of args
 
 5. Why do we need super() in an extended class?
+*  The super keyword is used to access and call functions on an object's parent object, for example on our JSIV example, PM was a child of instructor as well as human
 
 ### Git Set up
 
